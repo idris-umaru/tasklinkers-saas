@@ -9,7 +9,7 @@ The repository contains a Next.js frontend and an Express API backend. The curre
 - **Frontend:** Next.js, React, TypeScript, and Tailwind CSS
 - **Backend:** Node.js, Express, and JavaScript (ES modules)
 - **Data and authentication dependencies:** Prisma, PostgreSQL client, bcrypt, and JWT
-- **Package manager:** pnpm workspaces
+- **Package manager:** npm workspaces
 
 ## Repository layout
 
@@ -24,24 +24,24 @@ docs/       Product and API documentation
 Install dependencies from the repository root:
 
 ```bash
-pnpm install
+npm install
 ```
 
 Start the frontend and backend in separate terminals:
 
 ```bash
-pnpm frontend
+npm run frontend
 ```
 
 ```bash
-pnpm backend
+npm run backend
 ```
 
 The backend uses environment variables for its database and server configuration. Add a `backend/.env` file with the values required by the backend before starting it. Do not commit secrets. Database setup and migration commands are available in the backend package scripts:
 
 ```bash
-pnpm --dir backend prisma:generate
-pnpm --dir backend prisma:migrate
+npm run prisma:generate --workspace=tasklinkers-backend
+npm run prisma:migrate --workspace=tasklinkers-backend
 ```
 
 ## Product direction
