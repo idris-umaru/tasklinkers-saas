@@ -228,7 +228,7 @@ export default function DashboardPage() {
           <section className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
             <div>
               <p className="mb-2 text-[.68rem] font-extrabold tracking-[.16em] text-[#87948b]">THURSDAY, OCTOBER 8, 2026</p>
-              <h1 className="font-[Georgia,'Times_New_Roman',serif] text-[2.15rem] font-medium leading-tight tracking-[-.045em] text-[#26352e] md:text-[2.6rem]">Good morning, Alex <span aria-hidden="true">☀️</span></h1>
+              <h1 className="font-[Georgia,'Times_New_Roman',serif] text-[2.15rem] font-medium leading-tight tracking-[-.045em] text-[#26352e] md:text-[2.6rem]">Good morning, idris <span aria-hidden="true">sun</span></h1>
               <p className="mt-2 text-[.84rem] text-[#818c84]">Here’s what’s moving across your workspace today.</p>
             </div>
             <button className="inline-flex min-h-10 items-center justify-center gap-2 self-start rounded-[9px] bg-[#1d665a] px-4 text-[.76rem] font-bold text-white shadow-[0_8px_18px_rgba(29,102,90,.15)] transition hover:bg-[#17564c] sm:self-auto" type="button" onClick={() => setShowTaskForm((open) => !open)}>
