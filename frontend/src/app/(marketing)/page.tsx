@@ -18,7 +18,7 @@ const tasks = [
     title: "Publish client onboarding board",
     status: "Done",
     statusClass: "status-done",
-    due: "Jun 30",
+    due: "Oct 30",
   },
 ];
 
@@ -72,7 +72,7 @@ export default function LandingPage() {
           <div>
             <span className="eyebrow">
               <CheckCircle2 size={18} aria-hidden="true" />
-              Trello + Asana for small businesses
+              Trello + Small projects,Business Control and Visibility
             </span>
             <h1>TaskLinkers</h1>
             <p className="hero-copy">
