@@ -3,6 +3,7 @@
   "private": true,
   "packageManager": "pnpm@10.12.1",
   "scripts": {
+    "dev": "npm --prefix frontend run dev",
     "frontend": "pnpm --dir frontend dev",
     "backend": "pnpm --dir backend dev"
   }
