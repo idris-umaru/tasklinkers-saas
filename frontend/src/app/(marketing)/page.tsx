@@ -56,7 +56,7 @@ export default function LandingPage() {
             <Link href="/about">About</Link>
           </div>
 
-          <div className="[display:flex] [align-items:center] [gap:12px] max-[620px]:[&_.button-secondary]:[display:none]">
+          <div className="[display:flex] [align-items:center] [gap:12px] max-[620px]:[&>a:first-child]:[display:none]">
             <Link className="[display:inline-flex] [min-height:44px] [align-items:center] [justify-content:center] [gap:8px] [border:1px_solid_transparent] [border-radius:8px] [padding:0_18px] [font-weight:800] max-[620px]:[width:100%] [border-color:rgba(23,_32,_51,_0.16)] [background:rgba(255,_255,_255,_0.66)]" href="/login">
               Login
             </Link>
