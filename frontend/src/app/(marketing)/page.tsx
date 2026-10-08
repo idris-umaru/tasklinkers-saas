@@ -76,9 +76,7 @@ export default function LandingPage() {
             </span>
             <h1>TaskLinkers</h1>
             <p className="hero-copy">
-              A collaborative workspace for teams that need simple task ownership,
-              project visibility, deadlines, and organization-level control without
-              enterprise clutter.
+             
             </p>
             <div className="hero-actions">
               <Link className="button button-primary" href="/register">
