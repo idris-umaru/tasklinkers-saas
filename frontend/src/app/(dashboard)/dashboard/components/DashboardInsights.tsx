@@ -1,5 +1,11 @@
-import { ArrowRight, CalendarDays, CheckCircle2, Clock3, MoreHorizontal } from "lucide-react";
-import { projects } from "./dashboard-data";
+import {
+  ArrowRight,
+  CalendarDays,
+  CheckCircle2,
+  Clock3,
+  MoreHorizontal,
+} from "lucide-react";
+import { projects } from "../dashboard-data";
 
 export function DashboardInsights({ completedThisWeek }: { completedThisWeek: number }) {
   return (
