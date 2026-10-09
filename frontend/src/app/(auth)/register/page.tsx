@@ -136,7 +136,7 @@ export default function RegisterPage() {
               <label className="text-[.76rem] font-bold text-[#38433e]" htmlFor="name">Your name</label>
               <div className="flex min-h-[50px] items-center gap-3 rounded-[9px] border border-[#e2e4de] bg-white px-3.5 text-[#929a92] transition focus-within:border-[#438a7b] focus-within:shadow-[0_0_0_3px_rgba(39,115,101,.1)]">
                 <UserRound size={17} aria-hidden="true" />
-                <input className="w-full min-w-0 border-0 bg-transparent text-[.81rem] text-[#26332e] outline-none placeholder:text-[#b0b4ae]" id="name" name="name" type="text" autoComplete="name" placeholder="e.g. Alex Johnson" required />
+                <input className="w-full min-w-0 border-0 bg-transparent text-[.81rem] text-[#26332e] outline-none placeholder:text-[#b0b4ae]" id="name" name="name" type="text" autoComplete="name" placeholder="e.g. umaru idris " required />
               </div>
             </div>
 
