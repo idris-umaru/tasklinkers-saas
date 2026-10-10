@@ -38,6 +38,7 @@ export const navItems = [
   { label: "My tasks", href: "#tasks", icon: "tasks" },
   { label: "Projects", href: "#projects", icon: "projects" },
   { label: "Team", href: "#team", icon: "team" },
+  { label: "Billing", href: "/dashboard/billing", icon: "billing" },
 ];
 
 export function statusLabel(status: TaskStatus) {
